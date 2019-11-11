@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: grey;
+    font-family: "Montserrat";
+    background-image: url(images/blackkryptek.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: relative;
+}
+#head{
+    background-color: grey;
+    color: white;
+    padding: 25px 0px 0px 0px;
+    margin-top: 25px;
+}
+#logo{
+    padding-left: 10px;
+    float: left;
+    margin-top: -37px;
+}
+header{
+    padding-left: 50px;
+}
+h2{
+    float: left;
+    padding: 0px 0px 0px 20px;
+}
+nav{
+    padding: 80px 0px 10px 280px;
+    float: clear;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 120%;
+    font-weight: bold;
+}
+nav ul{
+
+}
+nav li{
+    display: inline;
+    padding: 30px;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: black;
+    transition: all .25s ease-in-out;
+}
+nav a:active{
+    text-decoration: underline;
+    color: black;
+}
+#wrapper{
+    width: 1000px;
+    background-color: rgba(150,150,150,.8);
+    margin: auto;
+    color: white;
+}
+main{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 25px 50px 25px 50px;
+}
+#moto{
+    font-size: 110%;
+    text-align: center;
+}
+#moto>p{
+    font-size: 80%;
+    padding: 70px 30px 0px 30px;
+}
+.talk{
+    padding: 20px 0px 0px 70px;
+    border: 0px 10px 0px 0px black;
+}
+.talk a{
+    text-decoration: none;
+    color: blue;
+}
+.talk h4{
+    text-align: center;
+}
+.talk p{
+    text-indent: 20px;
+}
+#pictures{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px 0px 150px 0px;
+}
+.col1{
+    float: left;
+    padding-left: 100px;
+}
+.col1>img{
+    box-shadow: 5px 5px 5px black;
+}
+.col2{
+    float: left;
+    padding: 0px 50px 0px 50px;
+}
+.col2>img{ 
+    box-shadow: 5px 5px 5px black;
+
+}
+.col3{
+    float: left;
+}
+.col3>img{
+    box-shadow: 5px 5px 5px black;
+}
+#connect{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 25px 0px 300px 0px;
+}
+h3{
+    text-align: center;
+    font-size: 130%;
+    font-weight: bold;
+}
+#face{
+    float: left;
+    padding-left: 225px;
+    margin-top: 20px;
+}
+#face a:hover{
+
+}
+#insta{
+    float: left;
+    padding-left: 100px;
+    margin-top: 20px;
+}
+#insta a:hover{
+    
+}
+footer{
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 0px 0px 50px 0px;
+}
